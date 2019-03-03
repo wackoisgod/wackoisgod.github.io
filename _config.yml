@@ -1,1 +1,31 @@
-theme: jekyll-theme-slate
+title: Andrew Spiering's Blog
+description: >-
+  Gamedev writings as well as other things.
+author: Andrew Spiering
+email: aspiering@gmail.com
+
+url: "https://blog.wacko.dev"
+baseurl: ""
+
+disqus:
+  shortname: blog-wacko-dev
+
+minima:
+  date_format: "%-d %b %Y"
+
+  social_links:
+    github:  wackoisgod
+    twitter: wackoisgod
+    rss: rss
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-avatar
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
